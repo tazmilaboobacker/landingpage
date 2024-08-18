@@ -1,0 +1,89 @@
+body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f0f0f0; */
+    background-image: url(/css/—Pngtree—sacks\ of\ rice\ potatoes\ and_7885817.png);
+    background-size:cover;
+    /* margin-bottom: 1000px; */
+    /* height: 700px; */
+    border-image: fill 0 linear-gradient(#0003, #000);
+    /* height: 100%; */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  h2{
+    font-size: 2.5rem;
+    text-align: center;
+    text-decoration: underline;
+  }
+  
+  .login-container {
+    background-color: #ffffff6b;
+    padding: 10px 5px;
+    border-radius: 10%;
+    /* box-shadow: 5 2 10px rgba(0, 0, 0, 0.1); */
+    width: 30%;
+    margin-right:100px;
+  }
+  
+  .login-form {
+    /* max-width: 300px; */
+    width: 80%;
+    padding: 0.5em;
+    margin: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    font-size: 1.125rem;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 10px;
+    border: 3px solid #188f0d;
+    background-color: #00000000;
+    border-radius: 3%;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e7e09;
+    font-weight: bolder;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+ 
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .register-link {
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  .register-link a{
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .register-link a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  

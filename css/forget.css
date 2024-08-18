@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(/css/large-green-rice-field-with-green-rice-plants-rows.jpg);
+    background-size:cover;
+    border-image: fill 0 linear-gradient(#0003, #000);
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  .contain{
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+    font-weight: 500;
+  }
+  .forgot-password-container {
+    background-color: #e2dfdf48;
+    padding: 10px;
+    border-radius: 3%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 30%;
+  }
+  h2{
+    margin-bottom: 30px;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 2px;
+  }
+  
+  .forgot-password-form {
+    max-width: 300px;
+    margin: auto;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    margin-top: 30px;
+    display: block;
+    margin-bottom: 5px;
+    font-weight: 600;
+    font-size: 1.2rem;
+    letter-spacing: 2px;
+  }
+  
+  .form-group input {
+    width: 90%;
+    padding: 10px;
+    border: 4px solid#2e7e09;
+    border-radius: 3px;
+    background-color: rgba(0, 0, 0, 0);
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #2e7e09;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-weight: 900;
+    font-size:medium;
+    letter-spacing: 3px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  .back-to-login {
+    margin-top: 30px;
+    text-align: center;
+  }
+  
+  .back-to-login a {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  .back-to-login a:hover {
+    text-decoration: underline;
+    color: #0056b3;
+  }
+  

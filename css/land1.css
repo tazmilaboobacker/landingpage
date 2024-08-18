@@ -1,0 +1,137 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+  background-color: rgba(173, 255, 170, 0.5);
+}
+header{
+    background-image: url(navtop1.jpg);
+    background-size:cover ;
+    height: 560px;
+    border-image: fill 0 linear-gradient(#0003, #000);
+}
+.header-title1 a{
+  margin-right: 30px;
+}
+.header-title,.header-title1{
+   display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+    top: 0;
+}
+.header-title a img{
+    width: 160px;
+    height: 120px;
+}
+.header-title1 li,a{
+   
+    list-style: none;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    font-weight: 400;
+    font-size: 1.5rem;
+}
+.header-title1 a{
+  background-color: rgba(128, 128, 128, 0.295);
+  border: 3px solid rgb(48, 143, 24);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+input{
+  width: 200px;
+  height: 30px;
+  border: 1px solid rgb(48, 143, 24);
+  background-color: rgba(75, 65, 65, 0);
+  border-radius: 10px;
+}
+
+.header-1{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+    top: 150px;
+    right: 320px;
+    justify-content: start;
+    align-items: center;  
+    font-weight: 500;
+    font-size: 1.5rem;
+}
+.header-1 p,h3,button{
+    margin-top: 15px;
+    font-size: 1.5rem;
+    letter-spacing: 2px;
+    color: aliceblue;
+}
+button{
+    background-color: rgb(48, 143, 24);
+    border: 0;
+    border-radius: 7px;
+    width: 400px;
+    height: 50px;
+}
+footer{
+  width: 90%;
+  max-width: 900px;
+  width: 900px;
+  margin: 0 auto;
+  overflow:auto;
+} 
+.foot-1{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+ 
+}
+.foot-1 .title-11{
+  width: 400px;
+  font-size: 1.5rem;
+  font-family: "Arimo", sans-serif;
+  color: #000;
+}
+.foot-2{
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.foot-2 a img{
+  width: 120px;
+  height: 40px;
+}
+.foot-3{
+  background-color: rgb(20, 20, 20);
+  display: grid;
+  grid-template-columns: auto auto auto auto;
+  grid-template-rows: auto;
+  list-style: none;
+  text-decoration: none;
+  height: 300px;
+  border: none;
+  border-radius: 10px 10px 0 0;
+  font-family: "Fira Sans Condensed", sans-serif;
+}
+.side-1{
+  margin-top: 25px;
+  padding: 10px 16px;
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 1.2rem;
+}
+.side-1 ul,.title-12{
+  list-style: none;
+  color: rgb(199, 199, 199);
+  font-weight: 700;
+  font-size: 1.5rem;
+}
+.side-1 ul .content-1,.content-2,.content-3{
+color: rgb(87, 87, 87);
+text-decoration: none;
+font-weight: 400;
+display: flex;
+flex-direction: column;
+}
+.side-1 li{
+  margin-top: 10px;
+}
